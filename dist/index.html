@@ -12,12 +12,13 @@
 </head>
 <body>
    
-    <header class="header py-5 ">
+    <div class="bg-blend-multiply bg-darkGray bg-no-repeat bg-cover bg-left-top bg-[url('/img/hero-cover.jpg')]">
+    <header class="header py-5 md:bg-transparent bg-white">
         <div class="container">
-            <div class="header__wrapper flex items-center justify-between w-[80%] mx-auto">
+            <div class="header__wrapper flex items-center justify-between w-[80%] mx-auto md:text-white">
 
                 <div class="headerLogo">
-                    <h2 class="text-secondary font-bold text-[2rem]">Physionic</h2>
+                    <h2 class="text-secondary md:text-white font-bold text-[2rem]">Physionic</h2>
                 </div>
     
                 <div class="headerNav hidden md:block">
@@ -42,7 +43,7 @@
                     </div>
                 </div>
 
-                <div class="getaQuote hidden md:flex">
+                <div class="getaQuote hidden lg:flex">
                     <a class="bg-primary p-3 rounded-md text-white font-semibold" href="#">Get a Quote Now</a>
     
                 </div>
@@ -64,9 +65,9 @@
     </header>
 
 
-    <section class="banner bg-blend-multiply bg-darkGray bg-no-repeat bg-cover bg-left-top bg-[url('/img/hero-cover.jpg')] py-10 text-center lg:text-left">
+    <section class="banner py-10 text-center lg:text-left">
         <div class="container">
-        <div class="banner__wrapper lg:flex lg:items-center md:w-[80%] mx-auto">
+        <div class="banner__wrapper block lg:flex lg:items-center md:w-[80%] mx-auto">
             <div class="banner__content md:w-[80%] mx-auto">
                     <h1 class="text-huge text-white font-semibold mb-3">Meet the Best Hospital</h1>
                     <p class="text-white mb-5">We know how large objects will act, but things on a small scale.</p>
@@ -74,7 +75,8 @@
                     <a class="bg-transparent text-white border border-white inline-block px-3 py-3 rounded-full font-semibold " href="#">Learn More</a>
             </div>
 
-            <div class="bannerForm text-left bg-white p-10 rounded-lg w-[350px] mx-auto my-14">
+            <div class="bannerForm text-left block lg:flex bg-white p-10 rounded-lg w-[350px] mx-auto my-14">
+                <div>
                 <h3 class="text-center font-semibold text-secondary text-2xl mb-3">Book Appointment</h3>
                 <form action="">
                     <div class="inputGroup mb-3">
@@ -106,11 +108,13 @@
                     </div>
                 </form>
                 <a class="bg-primary block text-white font-semibold text-lg p-3 rounded-lg w-full text-center" href="#">Book Appointment</a>
+                </div>
             </div>
 
         </div>
     </div>
     </section>
+    </div>
 
     <section class="leadingMedicine py-10">
         <div class="container">
@@ -122,8 +126,8 @@
                 <div class="leadingMedicine__card bg-lightBlue rounded-lg">
 
                     <div class=" flex items-center gap-3 py-7 px-5 justify-center">
-                        <div class="bg-white text-center inline-block w-[40px] h-[40px] p-2 rounded-full">
-                            <i class="fa-solid fa-expand justify-center"></i>
+                        <div class="bg-white text-center inline-block w-[40px] h-[40px] p-3 rounded-full">
+                            <img src="/img/Vector.png" alt="">
                         </div>
                         <h3 class="text-secondary font-semibold text-lg">Emergency Case</h3>
                     </div>
@@ -140,8 +144,8 @@
                 <div class="leadingMedicine__card bg-lightBlue rounded-lg">
 
                     <div class=" flex items-center gap-3 py-7 px-7 justify-center">
-                        <div class="bg-white text-center inline-block w-[40px] h-[40px] p-2 rounded-full">
-                            <i class="fa-solid fa-expand justify-center"></i>
+                        <div class="bg-white text-center inline-block w-[40px] h-[40px] p-3 rounded-full">
+                            <img src="/img/Vector.png" alt="">
                         </div>
                         <h3 class="text-secondary font-semibold text-lg">Cancer Care</h3>
                     </div>
@@ -159,8 +163,8 @@
                 <div class="leadingMedicine__card bg-lightBlue rounded-lg">
 
                     <div class=" flex items-center gap-3 py-7 px-7 justify-center">
-                        <div class="bg-white text-center inline-block w-[40px] h-[40px] p-2 rounded-full">
-                            <i class="fa-solid fa-expand justify-center"></i>
+                        <div class="bg-white text-center inline-block w-[40px] h-[40px] p-3 rounded-full">
+                            <img src="/img/Vector.png" alt="">
                         </div>
                         <h3 class="text-secondary font-semibold text-lg">Health Queries</h3>
                     </div>
@@ -179,7 +183,7 @@
     </section>
 
 
-    <section class="rate py-10 bg-lightGray">
+    <section class="rate py-20 bg-lightGray">
         <div class="container">
             <h3 class=" text-secondary mb-10 text-4xl font-bold text-center">What Clients Say</h3>
             <div class="rate__wrapper grid lg:grid-cols-3 grid-cols-1 w-[80%] mx-auto gap-9">
@@ -228,7 +232,7 @@
     </section>
 
 
-    <section class="FAQ py-10 bg-lightGray">
+    <section class="FAQ py-20 bg-lightGray">
         <div class="container">
             <h3 class="text-secondary mb-5 text-4xl font-bold text-center">FAQ</h3>
             <p class="w-[70%] mx-auto text-center mb-20 text-lighterGray">Problems trying to resolve the conflict <br> between the two major realms of Classical physics: Newtonian mechanics</p>
@@ -311,13 +315,13 @@
         </div>
     </section>
 
-    <section class="pricing py-10">
+    <section class="pricing py-20">
         <h3 class="text-secondary mb-5 text-4xl font-bold text-center">Pricing</h3>
         <p class="w-[70%] mx-auto text-center mb-20 text-lighterGray">Problems trying to resolve the conflict <br> between the two major realms of Classical physics: Newtonian mechanics</p>
 
         <div class="container">
 
-            <div class="pricing__wrapper flex items-center gap-1 w-[80%] mx-auto">
+            <div class="pricing__wrapper block lg:flex items-center gap-1 w-[80%] mx-auto">
                 <div class="pricing__card border border-primary p-10 rounded-lg">
                     <h3 class=" text-secondary mb-10 text-xl font-bold text-center">FREE</h3>
                     <p class="text-lighterGray mb-10 text-center font-bold">Organize across all Apps by hand</p>
@@ -366,9 +370,9 @@
                     <a class="bg-primary text-lightGray block p-4 font-semibold text-center rounded-lg" href="#">Try for free</a>
                 </div>
 
-                <div class="pricing__card border border-primary bg-secondary p-10 rounded-lg mb-10">
-                    <h3 class="text-white mb-10 text-xl font-bold text-center mt-5">STANDARD</h3>
-                    <p class="text-lightGray mb-10 text-center font-bold">Organize across all Apps by hand</p>
+                <div class="pricing__card border border-primary bg-secondary p-10 rounded-lg mt-10  mb-10 lg:mb-20">
+                    <h3 class="text-white mb-10 text-xl font-bold text-center mt-10">STANDARD</h3>
+                    <p class="text-lightGray mb-10 text-center font-bold ">Organize across all Apps by hand</p>
                         <div class="flex gap-2 items-center text-primary mb-10 justify-center">
                             <p class="font-semibold text-4xl">9.99</p>
                                 <div>
@@ -413,11 +417,11 @@
                         </div>
                     </div>
 
-                    <a class="bg-primary text-lightGray block p-4 font-semibold text-center rounded-lg mb-5" href="#">Try for free</a>
+                    <a class="bg-primary text-lightGray block p-4 font-semibold text-center rounded-lg" href="#">Try for free</a>
                 </div>
 
                 <div class="pricing__card border border-primary p-10 rounded-lg">
-                    <h3 class=" text-secondary mb-10 text-xl font-bold text-center ">PREMIUM</h3>
+                    <h3 class=" text-secondary mb-10 text-xl font-bold text-center">PREMIUM</h3>
                     <p class="text-lighterGray mb-10 text-center font-bold">Organize across all Apps by hand</p>
                         <div class="flex gap-2 items-center text-primary mb-10 justify-center">
                             <p class="font-semibold text-4xl">19.99</p>
@@ -474,16 +478,17 @@
 
     <section class="GetInTouch bg-secondary py-20">
         <div class="container">
-            <div class="w-[80%] mx-auto md:flex justify-between items-center">
+            <div class="w-[85%] mx-auto lg:flex justify-between items-center text-center">
+
                 <div>
-                    <h3 class="text-lightGray mb-5 text-4xl font-bold text-center md:flex hidden md:text-left">Get in Touch</h3>
+                    <h3 class="text-lightGray mb-5 text-4xl font-bold text-center lg:flex hidden md:text-left">Get in Touch</h3>
                     <h3 class="text-lightGray mb-5 text-4xl font-bold text-center md:hidden">Subscribe For Latest Newsletter</h3>
-                    <p class="text-lightGray w-[500px] hidden md:flex">The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th </p>
+                    <p class="text-lightGray w-[500px] hidden md:flex md:text-left">The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th </p>
                 </div>
 
-                <div class="mt-10 text-center">
-                    <input class="p-3 mt-2 border inline-block border-gray-200 rounded-lg"  type="text" placeholder="Your Email"> 
-                    <a class="bg-primary text-white inline-block px-5 py-3 rounded-lg font-semibold mb-6 lg:mr-2" href="#">Subscribe</a>
+                <div class="mt-10 lg:flex items-center bg-lightGray border border-gray-200 rounded-lg inline-block mb-10 lg:mr-10">
+                    <input class="p-3 inline-block rounded-lg"  type="text" placeholder="Your Email"> 
+                    <a class="bg-primary text-white inline-block px-5 py-3 rounded-r-lg font-semibold" href="#">Subscribe</a>
                 </div>
 
             </div>
@@ -493,7 +498,7 @@
     <footer class="footer py-10">
         <div class="container">
 
-            <div class="footer__wrapper md:w-[80%] w-[60%] mx-auto grid md:grid-cols-4 grid-cols-1 gap-4 mb-24">
+            <div class="footer__wrapper md:w-[85%] w-[60%] mx-auto grid md:grid-cols-4 grid-cols-1 gap-4 mb-24">
                 <div>
                     <h3 class="text-secondary mb-4 text-xl font-bold">Get In Touch</h3>
                     <p class="text-lighterGray mb-4">the quick fox jumps over the lazy dog</p>
