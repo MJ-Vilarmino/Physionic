@@ -903,6 +903,16 @@ body {
   padding-bottom: 1.75rem;
 }
 
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .text-left {
   text-align: left;
 }
