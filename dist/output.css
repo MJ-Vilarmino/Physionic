@@ -816,6 +816,22 @@ body {
   background-image: url('https://drive.google.com/uc?export=view&id=1iQxla7LQHMsMh7DhD03pduILWTIq8LDQ');
 }
 
+.bg-\[url\(\'\.\/img\/hero-cover\.png\'\)\] {
+  background-image: url('./img/hero-cover.png');
+}
+
+.bg-\[url\(\'\/img\/hero-cover\.png\'\)\] {
+  background-image: url('/img/hero-cover.png');
+}
+
+.bg-\[url\(\'\.\/img\/hero-cover\.jpg\'\)\] {
+  background-image: url('./img/hero-cover.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/github\.com\/MJ-Vilarmino\/Physionic\/blob\/main\/img\/hero-cover\.jpg\?raw\=true\'\)\] {
+  background-image: url('https://github.com/MJ-Vilarmino/Physionic/blob/main/img/hero-cover.jpg?raw=true');
+}
+
 .bg-cover {
   background-size: cover;
 }
